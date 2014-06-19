@@ -21,7 +21,7 @@ class MysqliConnection implements Connection
     public static function create($host, $user, $password, $database, $encoding = 'utf8')
     {
         $mysqli = mysqli_connect($host, $user, $password, $database);
-        $mysqli->set_charset('utf8');
+        $mysqli->set_charset($encoding);
         return new static($mysqli);
     }
 
