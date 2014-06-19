@@ -12,7 +12,7 @@ class MigrateCommand extends ContainerAwareCommand
     protected function configure()
     {
         $this
-            ->setName('pr:migrate')
+            ->setName('aureka_migrate:migrate')
             ->setDescription('Migrates a database.');
     }
 
