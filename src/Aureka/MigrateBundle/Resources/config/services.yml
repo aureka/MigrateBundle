@@ -1,0 +1,12 @@
+parameters:
+#    aureka_migrate.example.class: Aureka\MigrateBundle\Example
+
+services:
+    aureka_migrate.legacy_connection:
+        class: '%aureka_migration.connection_class%'
+        factory_class: '%aureka_migration.connection_class%'
+        factory_method: 'create'
+        arguments: ['%aureka_migration.host%', '%aureka_migration.user%', '%aureka_migration.password%','%aureka_migration.database%']
+
+    aureka_migrate.migration:
+        class: '%aureka_migration.migration_class%'
