@@ -11,7 +11,8 @@
     "require": {
     },
     "require-dev": {
-        "symfony/symfony": "*"
+        "symfony/symfony": "*",
+        "phpunit/phpunit": "*"
     },
     "autoload": {
         "psr-0": { "Aureka\\MigrateBundle": "src" }
