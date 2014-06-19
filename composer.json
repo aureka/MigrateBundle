@@ -1,0 +1,20 @@
+{
+    "name": "aureka/migrate-bundle",
+    "description": "Provides an initial scaffolding for building migrations",
+    "license": "GPL2",
+    "authors": [
+        {
+            "name": "Carles Climent",
+            "email": "carlescliment@hotmail.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "symfony/symfony": "*"
+    },
+    "autoload": {
+        "psr-0": { "Aureka\\MigrateBundle": "src" }
+    }
+}
+
