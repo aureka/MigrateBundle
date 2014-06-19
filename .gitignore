@@ -1,3 +1,6 @@
 vendor/*
 composer.phar
 composer.lock
+src/Aureka/MigrateBundle/Tests/Application/cache
+src/Aureka/MigrateBundle/Tests/Application/logs
+
